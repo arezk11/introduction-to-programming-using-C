@@ -1,0 +1,41 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : Ali Mohamed Ali Ahmed Rezk
+Student ID#: 105593222
+Email      : arezk1@myseneca.ca
+Section    : ZCC
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1)
+The issue with the cents2 variable is that when you multiply price2 (10.12) by 100,
+the result is 1011.9999999999999. This is because of how floating point numbers
+are represented in memory, and when you cast it to an integer, it rounds it down.
+
+2)
+int money,hundreds,fiftes,twintes,tens,fives; 
+double rmHundreds,rmFiftes,rmTwintes,rmTens,rmFives
+hundreds = (int)(money / 100);
+  rmhundreds = (money % 10000);
+fiftes = (int)(rmHundreds / 50);
+  rmFiftes = (rmHundreds % 5000);
+twintes = (int)(rmFiftes / 20);
+  rmTwintes = (rmFiftes % 2000);
+tens = (int)(rmtwintes / 10);
+  rmTens = (rmTwintes % 1000);
+fives = (int)(rmTens / 5);
+  rmFives = (rmTens % 50);
+ printf("Hundreds  %3d %9.4lf\n", (int)hundreds / 100, (double)rmHundreds / 100);
+
+3)
+First method int dollars = cents / 100; double rmCent = (double)cents % 100 / 100.0; double dollarsTotal = (double)dollars + centsRmainder;
+Secound method int dollars = cents / 100; double rmCents = (double)(cents % 100) / 100.0; double dollarsTotal = (double)dollars + centsRmainder;
+Theird method int dollars = cents / 100; double rmcent = (double)(cents % 100) / 100; double dollarsTotal = (double)dollars + centsRmainder;
+
+

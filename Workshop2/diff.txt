@@ -1,0 +1,14 @@
+In line number 15 of your output:
+The output should be:
+Number of shirts Patty is buying: 6
+                                  ^
+But your output is: 
+Number of shirts Patty is buying: 8
+                                  ^
+
+Unmatched character details:
+The character in column 35 is supposed to be:
+  [6] ASCII code(54)
+but you printed
+  [8] ASCII code(56)
+

@@ -1,0 +1,14 @@
+In line number 43 of your output:
+The output should be:
+Pick some PEARS... how many did you pick? : -2
+                                             ^
+But your output is: 
+Pick some PEARS... how many did you pick? : -3
+                                             ^
+
+Unmatched character details:
+The character in column 46 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [3] ASCII code(51)
+

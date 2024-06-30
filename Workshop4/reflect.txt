@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Ali Mohamed Ali Ahmed Rezk
+Student ID#:105593222 
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1)
+I made my code easy to read and maintain by using meaningful names for my 
+variables and descriptive function names.
+I also alined the code by spaceing my code in the loop and selection logic
+to clearly see the different levels of nesting.
+
+2)
+If nested were not possible for this workshop it would be very hard to complete it
+because, nesting allows me to create complex functions and statements that check for
+multiple conditions and also it helps make the code more readable and easy to maintain.  
+
+3)
+Using a series of 'if' optional path constructs is inefficient for this scenario
+because it requires me to check the same conditions multiple times.
+But with the 'if else' alternative path logic, I can define a series of conditions 
+that will be checked only once and then the next conditions will be done.

@@ -1,0 +1,10 @@
+Script started on Thu 30 May 2024 01:26:51 PM EDT
+Take a Break - Coffee Shop
+==========================
+
+Enter the coffee product information being sold today...
+
+COFFEE-1...
+Type ([L]ight,[M]edium,[R]ich): l
+Bag weight (g): ^C
+Script done on Thu 30 May 2024 01:26:55 PM EDT

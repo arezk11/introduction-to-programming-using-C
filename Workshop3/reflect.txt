@@ -1,0 +1,55 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Ali Mohamed Ali Ahmed Rezk
+Student ID#:105593222 
+Email      : arezk1@myseneca.ca
+Section    : ZCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1)
+(cof1weight == 250) && (servDay >= 1 && servDay <= 4)
+(cof1weight == 1000) && (servDay >= 5 || servDay <= 9)
+I used one rational and one logical expressions.
+
+2)
+In my answer for part-1 output 9 i used DeMorgan's law
+ A)Using DeMorgan's Law:
+ printf("9. Based on product ID,
+product 3 is unique -> %d\n\n", product3Id != product1Id && product3Id != product1Id);
+ B)Not using DeMorgan's law :
+ printf("9. Based on product ID,
+ product 3 is unique -> %d\n\n", product3Id == product1Id && product3Id == product1Id);
+
+3)
+
+A)       
+     const double GRAMS_IN_LBS = 453.5924;
+     char cof1type,cof1cream,cof2type,cof2cream,cof3type,cof3cream,cofStrength,cofCream;
+     int  cof1weight,cof2weight,cof3weight,servDay;
+B)
+      const double GRAMS_IN_LBS = 453.5924;
+
+	char cof1type;
+	int  cof1weight;
+	char cof1cream;
+
+	char cof2type;
+	int cof2weight;
+	char cof2cream;
+
+	char cof3type;
+	int  cof3weight;
+	char cof3cream;
+
+	char cofStrength;
+	int servDay;
+	char cofCream;
+
+
+	

@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : Ali Mohamed Ali Ahmed Rezk
+Student ID#: 105593222
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1)
+it makes the function more flexibly because if i am going to use the returned value in 
+many places in the code its better to use the return value,and if i want to change the 
+value of the argument its better to pass it as an argument 
+but its hard to keep track of the data if the function has more than one way to return 
+the value
+
+2)
+// 13. calculate: cost per calorie
+double calculateCostPerCal(const double* price, const double* totCal, double* costPerServ);
+the calculateCostPerCal and calculateCostPerServing are coupled and to improve this we 
+can create another function that total numbers of servings so these functions can call it 
+
+3)
+the displayCatfoodData can be improved by using a pointer to CatFoodInfo structure instead of passing 
+the entire structure because it saves more memory 

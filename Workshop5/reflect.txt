@@ -1,0 +1,30 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : Ali Mohamed Ali Ahmed Rezk
+Student ID#: 105593222
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1)
+
+ A)to avoid errors because hard coding the values can be difficult to maintain and understand, also
+ can cause errors to occur if the values are mistyped. macros make this erorrs less to happen
+ because the value only needs to be entered once and then referenced through the code till the end. 
+
+ B)to be easy to read and understand because i used meaningful names for the variables so anybody
+   who reads the code can understand what each line doing and this could also help me if i returned to 
+   this code after years i could still remember what does this code do and understand each line.
+
+ c)easy to change in the future because if i wanted to update the code to 2023 instead of 2022 i 
+   could easily do it by updating the macro MAX_YEAR to 2023 and delete 2022.  
+2)
+  by separating the two i can isolate errors and make it easier to modify or maintain the code in the
+  future and also the validation process is only concerned with making sure that the user input is within 
+  the intended range this is because changes made to one part of the code are less likely to affect other parts
+  and it may be easier to update the values when seperating them.

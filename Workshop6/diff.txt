@@ -1,0 +1,14 @@
+In line number 102 of your output:
+The output should be:
+Forecast: 0 years, 9 months
+                   ^
+But your output is: 
+Forecast: 0 years, 0 months
+                   ^
+
+Unmatched character details:
+The character in column 20 is supposed to be:
+  [9] ASCII code(57)
+but you printed
+  [0] ASCII code(48)
+

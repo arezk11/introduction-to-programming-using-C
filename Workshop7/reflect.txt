@@ -1,0 +1,40 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : Ali Mohamed Ali Ahmed Rezk
+Student ID#: 105593222
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+1)
+i used a loop for the ruler instead of writtening same logic many times and, 
+i used a flag to break the loop when the user lifes or moves are 0 
+
+2)
+structure helped me save time by reducing the huge amount of code i have to 
+write to create this program i used struct instead of creating many variables
+for player1 and game1 which will cause the code to be more complex and if i didnt use 
+struct i had to keep track of the 8 variables 
+
+3)
+i made 4 level of nested loop 
+ 
+ while (!gameCheck)
+    {
+	for (i = 0; i < game1.length; i++) 
+      {
+		if (player1.hisPosition[i] == 0) 
+            {
+            }
+            else 
+            {
+                if (game1.bomLocation[i] == 1 && game1.treasureLocation[i] == 1)
+                {
+                }
+            }
+           
+        }
+    }

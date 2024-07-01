@@ -1,0 +1,14 @@
+In line number 61 of your output:
+The output should be:
+ERROR: String length must be exactly 6 chars: chicken
+                                              ^
+But your output is: 
+ERROR: String length must be exactly 6 chars: ////////////////////////////////////////
+                                              ^
+
+Unmatched character details:
+The character in column 47 is supposed to be:
+  [c] ASCII code(99)
+but you printed
+  [/] ASCII code(47)
+
